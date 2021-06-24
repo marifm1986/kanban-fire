@@ -1,6 +1,14 @@
 {
   "hosting": [
     {
+      "public": "dist/angularFirebase",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
       "target": "angularFirebase",
       "public": "dist/angularFirebase",
       "ignore": [

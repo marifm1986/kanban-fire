@@ -7,5 +7,8 @@
         ]
       }
     }
+  },
+  "projects": {
+    "default": "kanban-fire-workshop-8ca5d"
   }
 }
