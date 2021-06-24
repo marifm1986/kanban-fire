@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanban-fire-workshop-8ca5d": {
+      "hosting": {
+        "angularFirebase": [
+          "kanban-fire-workshop-8ca5d"
+        ]
+      }
+    }
+  }
+}

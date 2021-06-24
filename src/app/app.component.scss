@@ -1,0 +1,47 @@
+mat-toolbar{
+    margin-bottom: 1.25rem;
+}
+
+mat-toolbar > span{
+    margin-left: 0.625rem;
+}
+
+.content_wrapper{
+min-width: 87.5rem;
+margin: auto;
+}
+.container_wrapper {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.container{
+   flex: 1;
+    margin: 0 1.5625rem 1.5625rem 0;
+}
+.list{
+    border: solid 1px #ccc;
+    min-height: 3.75rem;
+    border-radius: 0.25rem;
+}
+
+app-new-task{
+    margin-bottom: 30px;
+}
+
+.empty_label{
+    font-size: 2rem;
+    padding-top: 0.625rem;
+    text-align: center;
+    opacity: .2;
+}
+
+
+.cdk-drag-placeholder{
+    opacity: 0;
+}
+
+.cdk-drag-animating{
+    transition:  transform 250ms;
+}
