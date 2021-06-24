@@ -7,18 +7,18 @@ mat-toolbar > span{
 }
 
 .content_wrapper{
-min-width: 87.5rem;
+
 margin: auto;
 }
 .container_wrapper {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
+gap: 1rem;
 }
 
 .container{
    flex: 1;
-    margin: 0 1.5625rem 1.5625rem 0;
 }
 .list{
     border: solid 1px #ccc;
