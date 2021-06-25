@@ -1,47 +1,55 @@
-mat-toolbar{
+mat-toolbar {
     margin-bottom: 1.25rem;
 }
 
-mat-toolbar > span{
+mat-toolbar > span {
     margin-left: 0.625rem;
 }
 
-.content_wrapper{
-
-margin: auto;
+.content_wrapper {
+    margin: auto;
 }
 .container_wrapper {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-gap: 1rem;
+    display: flex;
+    gap: 0.5rem;
 }
 
-.container{
-   flex: 1;
+.container {
+    &.done {
+        color: green;
+        ::ng-deep app-task {
+            .mat-card {
+                background: green;
+                color: #fff;
+                .title {
+                    color: white;
+                }
+                
+            }
+        }
+    }
 }
-.list{
+.list {
     border: solid 1px #ccc;
-    min-height: 3.75rem;
+    min-height: 3.125rem;
     border-radius: 0.25rem;
 }
 
-app-new-task{
+app-new-task {
     margin-bottom: 30px;
+    height: max-content;
 }
 
-.empty_label{
-    font-size: 2rem;
+.empty_label {
     padding-top: 0.625rem;
     text-align: center;
-    opacity: .2;
+    opacity: 0.2;
 }
 
-
-.cdk-drag-placeholder{
+.cdk-drag-placeholder {
     opacity: 0;
 }
 
-.cdk-drag-animating{
-    transition:  transform 250ms;
+.cdk-drag-animating {
+    transition: transform 250ms;
 }

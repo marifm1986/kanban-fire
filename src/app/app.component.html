@@ -26,7 +26,7 @@
 
             </mat-card>
         </div>
-        <div class="container">
+        <div class="container" [class.done]="done">
             <h2>Done</h2>
             <mat-card cdkDropList id="done" #doneList="cdkDropList" [cdkDropListData]='done  | async' (cdkDropListDropped)="drop($event)" [cdkDropListConnectedTo]="[inProgressList, doneList]">
                 <p class="empty_label" *ngIf="(done | async)?.length === 0">Empty List</p>
