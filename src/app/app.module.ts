@@ -21,6 +21,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { A11yModule } from '@angular/cdk/a11y';
 import { AngularFireModule } from '@angular/fire';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
 import { environment } from 'src/environments/environment';
 
 
@@ -52,6 +54,7 @@ import { environment } from 'src/environments/environment';
     MatFormFieldModule,
     MatInputModule,
     A11yModule,
+    MatProgressBarModule,
     AngularFirestoreModule,
     AngularFireModule.initializeApp(environment.firebase),
 

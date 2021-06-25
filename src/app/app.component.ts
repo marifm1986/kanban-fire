@@ -28,6 +28,12 @@ export class AppComponent {
 
   constructor(private dialog: MatDialog, private store: AngularFirestore) { }
 
+  condition(){
+    this.todo,
+    this.inProgress,
+    this.done
+  }
+
 drop(event: CdkDragDrop<any>): void{
 if(event.previousContainer === event.container){
   return;
